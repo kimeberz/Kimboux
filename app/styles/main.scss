@@ -1,1 +1,16 @@
 @import "compass_twitter_bootstrap";
+
+html header footer body {
+  background-color: url('/images/'black-linen.png);
+  background-color: fixed!important;
+  margin-left: 20%
+  margin-right: 20%
+  padding: 10px 10px 10px 10px
+  font: Helvetica
+
+}
+
+body {
+  background-color: url('/images/'black-linen.png);
+  background-color: fixed!important;
+}
