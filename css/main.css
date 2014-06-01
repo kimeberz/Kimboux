@@ -1,0 +1,240 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@import "compass_twitter_bootstrap";
+
+html header footer body{
+}
+
+.container {
+  color: #535362;
+  font-family: "Whitney SSm A", "Whitney SSm B", Helvetica, Arial, sans-serif;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /*max-width: 800px;*/
+  /*padding: 40px 40px;
+ /*-webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
+  webkit-border-image: none;
+  border-width: 1px 1px 1px 6px;*/
+   /*-webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 -1px 0 rgba(0, 0, 0, 0.2);*/
+
+}
+
+header{
+  padding-bottom: 5px;
+}
+
+.source{
+margin-top:45px;
+float:right;
+}
+
+.navbar .navbar-collapse .navbar-brand{
+  text-align: center;
+}
+
+article{
+
+}
+  
+.title{
+  /*text-transform: uppercase;*/
+  padding-bottom: 5px;
+  }
+
+.company{
+  /*text-transform: uppercase;*/
+  padding-bottom: 5px;
+  color: #0ABFBC;
+  }
+
+.position{
+  /*text-transform: uppercase;*/
+  padding-bottom: 5px;
+  color: #13747D;
+  }
+
+section{
+  padding-bottom: 20px;
+}
+
+.title{
+  font-weight: bold;
+  text-transform: 
+}
+
+/*.title2{
+
+}*/
+
+.date{
+    float: right;
+    font-style:italic ;
+  }
+
+.divider{
+  border-top: solid 1px #333;
+  margin-bottom: 20px;
+}
+
+footer{
+  text-align: center;
+  color: rgba(214, 210, 219, 0.47);
+  font-family: "Whitney SSm A", "Whitney SSm B", Helvetica-neue, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+@media print{
+  .container{
+    margin-top: 0px !important;
+  }
+
+  footer{
+    display: none;
+  }
+
+  .btn{
+    display: none;
+  }
+}
+
+
+/*Charts*/
+
+
+/*#rectangle {
+  width: 10%;
+  height: 20px;
+  background: #13747D;
+  border-radius: 15px;
+}
+
+.skills {
+  border-top: solid; 2px;
+}
+
+.skilltitle {
+  text-align: left;
+  text-transform: bold;
+  padding-top: 5px;
+}
+
+
+.lowlabel {
+    text: 1em;
+    text-align: left;
+}
+
+.highlabel {
+    text-align: right;
+    text-align:
+}*/
+
+
+#rectangle-1 {
+  width: 85%;
+  height: 20px;
+  background: #0ABFBC;
+  border-radius: 15px;
+}
+
+#rectangle-2 {
+  width: 20%;
+  height: 20px;
+  background: #0ABFBC;
+  border-radius: 15px;
+}
+
+#rectangle-3 {
+  width: 65%;
+  height: 20px;
+  background: #0ABFBC;
+  border-radius: 15px;
+}
+
+#rectangle-4 {
+  width: 60%;
+  height: 20px;
+  background: #0ABFBC;
+  border-radius: 15px;
+}
+
+#rectangle-5 {
+  width: 50%;
+  height: 20px;
+  background: #0ABFBC;
+  border-radius: 15px;
+}
+
+#rectangle-6 {
+  width: 50%;
+  height: 20px;
+  background: #0ABFBC;
+  border-radius: 15px;
+}
+
+#rectangle-7 {
+  width: 60%;
+  height: 20px;
+  background: #0ABFBC;
+  border-radius: 15px;
+}
+
+#rectangle-8 {
+  width: 50%;
+  height: 20px;
+  background: #0ABFBC;
+  border-radius: 15px;
+}
+
+.pro {
+    
+}
+
+.axis {
+  border-color: #979797;
+  border-top: solid; 2px;
+  border-left: solid; 2px;
+  border-right: solid; 2px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.lowlabel {
+    float: left;
+    padding-left: 2px;
+}
+
+.highlabel {
+    float: right;
+}
+
+.skilltitle {
+  text-transform: bold;
+  padding-top: 15px;
+}
+
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+
+
+
+
