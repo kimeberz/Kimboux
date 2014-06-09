@@ -10,7 +10,7 @@ html header footer body{
 
 .container {
   color: #535362;
-  font-family: "Whitney SSm A", "Whitney SSm B", Helvetica, Arial, sans-serif;
+  font-family: Helvetica neue, Arial, sans-serif;
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
@@ -43,23 +43,29 @@ float:right;
   text-align: center;
 }
 
+.navibar {
+  margin-top: 19px;
+  margin-bottom: -48px;
+}
+
 article{
 
 }
-  
+
 .title{
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
+  font-weight: bold;
   padding-bottom: 5px;
   }
 
 .company{
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   padding-bottom: 5px;
   color: #0ABFBC;
   }
 
 .position{
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   padding-bottom: 5px;
   color: #13747D;
   }
@@ -68,29 +74,48 @@ section{
   padding-bottom: 20px;
 }
 
-.title{
-  font-weight: bold;
-  text-transform: 
-}
-
-/*.title2{
-
-}*/
 
 .date{
-    float: right;
-    font-style:italic ;
+  float: right;
+  font-style:italic ;
   }
 
-.divider{
-  border-top: solid 1px #333;
+
+.colorbar div {
+  height: 8px;
+  width: 20%;
+  display: inline-block;
+  margin-right: -4px;
   margin-bottom: 20px;
 }
+
+.red {
+  background-color: #FC354C;
+}
+
+.black {
+  background-color: #29221F;
+}
+
+.green {
+  background: #13747D;
+}
+
+
+.teal {
+  background: #0ABFBC;
+}
+
+
+.yellow {
+  background: #FCF7C5;
+}
+
 
 footer{
   text-align: center;
   color: rgba(214, 210, 219, 0.47);
-  font-family: "Whitney SSm A", "Whitney SSm B", Helvetica-neue, Arial, sans-serif;
+  font-family: Helvetica-Neue, Arial, sans-serif;
   margin-bottom: 20px;
 }
 
@@ -138,6 +163,60 @@ footer{
 .highlabel {
     text-align: right;
     text-align:
+}*/
+
+/*Icon Links*/
+/*#circle {
+  width: 100px;
+  height: 100px;
+  background: #0ABFBC;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  display: inline;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-repeat-x: repeat;
+  background-repeat-y: repeat;
+}*/
+
+.circle {
+  width: 3.5em;
+  height: 3.5em;
+  background: #0ABFBC;
+  border-radius: 50%;
+  padding: 20px;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: .8em;
+  font-style: normal;
+  display: inline-block;
+
+}
+
+.circle i {
+  position: relative;
+  top: -8px;
+  /*left: -6px;*/
+}
+
+.fa-github-alt {
+  left: -8px;
+}
+
+.fa-dribbble {
+  left: -8px;
+}
+
+.fa-instagram {
+  left: -7px;
+}
+
+
+/* .fa {
+    color: white;
 }*/
 
 
@@ -197,8 +276,15 @@ footer{
   border-radius: 15px;
 }
 
+#rectangle-9 {
+  width: 30%;
+  height: 20px;
+  background: #0ABFBC;
+  border-radius: 15px;
+}
+
 .pro {
-    
+
 }
 
 .axis {
@@ -235,6 +321,31 @@ footer{
 }
 
 
+.navlink {
+  padding-right: 5%;
+  text-transform: uppercase;
+  color: #535362;
 
+}
 
+.navlink:hover {
+  color: #E94E77;
+}
 
+.nav-active {
+  font-weight: bold;
+}
+
+.social {
+  float: right;
+}
+
+a {
+  color: #535362;
+
+}
+
+a:hover {
+  color: #E94E77;
+  text-decoration: none;
+}
