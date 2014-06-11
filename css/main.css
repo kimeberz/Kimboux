@@ -222,76 +222,79 @@ footer{
 
 #rectangle-1 {
   width: 85%;
-  height: 20px;
+  height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
 }
 
 #rectangle-2 {
   width: 20%;
-  height: 20px;
+  height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
 }
 
 #rectangle-3 {
   width: 65%;
-  height: 20px;
+  height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
 }
 
 #rectangle-4 {
   width: 60%;
-  height: 20px;
+  height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
 }
 
 #rectangle-5 {
   width: 50%;
-  height: 20px;
+  height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
 }
 
 #rectangle-6 {
   width: 50%;
-  height: 20px;
+  height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
 }
 
 #rectangle-7 {
   width: 60%;
-  height: 20px;
+  height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
 }
 
 #rectangle-8 {
   width: 50%;
-  height: 20px;
+  height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
 }
 
 #rectangle-9 {
   width: 30%;
-  height: 20px;
+  height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
 }
 
-.pro {
+ h3{
+  text-transform: uppercase;
 
 }
 
 .axis {
   border-color: #979797;
-  border-top: solid; 2px;
-  border-left: solid; 2px;
-  border-right: solid; 2px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   padding-top: 5px;
   padding-bottom: 15px;
   padding-left: 5px;
@@ -348,4 +351,12 @@ a {
 a:hover {
   color: #E94E77;
   text-decoration: none;
+}
+
+
+.roles li{
+  display: inline;
+  list-style: none;
+  padding-right: 5px;
+
 }
