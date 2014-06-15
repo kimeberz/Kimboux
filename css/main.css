@@ -10,9 +10,9 @@ html header footer body{
 
 .container {
   color: #535362;
-  font-family: Helvetica neue, Arial, sans-serif;
+  font-family: futura, Helvetica neue, Arial, sans-serif;
   border: 0;
-  font-size: 100%;
+  font-size: 16px;
   vertical-align: baseline;
   background: none;
   margin-top: 40px;
@@ -30,11 +30,15 @@ html header footer body{
 
 }
 
+p {
+  line-height: 150%;
+}
+
 header{
   padding-bottom: 5px;
 }
 
-.source{
+.source {
 margin-top:45px;
 float:right;
 }
@@ -57,6 +61,10 @@ article{
   font-weight: bold;
   padding-bottom: 5px;
   }
+
+.entry_subtitle {
+  font-size: 120%;
+}
 
 .company{
   text-transform: uppercase;
@@ -85,7 +93,7 @@ section{
   height: 8px;
   width: 20%;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: -6px;
   margin-bottom: 20px;
 }
 
@@ -203,15 +211,15 @@ footer{
 }
 
 .fa-github-alt {
-  left: -8px;
+  left: -7px;
 }
 
-.fa-dribbble {
-  left: -8px;
+.fa-linkedin-square {
+  left: -5px;
 }
 
 .fa-instagram {
-  left: -7px;
+  left: -5px;
 }
 
 
@@ -221,7 +229,7 @@ footer{
 
 
 #rectangle-1 {
-  width: 85%;
+  width: 100%;
   height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
@@ -235,7 +243,7 @@ footer{
 }
 
 #rectangle-3 {
-  width: 65%;
+  width: 75%;
   height: 14px;
   background: #0ABFBC;
   border-radius: 15px;
@@ -299,6 +307,7 @@ footer{
   padding-bottom: 15px;
   padding-left: 5px;
   padding-right: 5px;
+  text-transform: cap
 }
 
 .lowlabel {
@@ -353,10 +362,45 @@ a:hover {
   text-decoration: none;
 }
 
+/*Portfolio Page*/
 
 .roles li{
   display: inline;
   list-style: none;
   padding-right: 5px;
+  font-size: 130%;
+
+}
+
+.roles {
+  text-align: center;
+}
+
+.port-pics {
+  max-width: 900px;
+  padding-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.port-title {
+  text-align: center;
+}
+
+/*About Page*/
+
+.blurb {
+  font-size: 140%;
+  padding-left: 30px;
+  padding: 30px;
+}
+
+.aboutpic {
+  max-width: 500px;
+  padding-bottom: 40px;
+  display: block;
+  float: left;
+  border-radius: 20%;
 
 }
