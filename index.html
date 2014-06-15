@@ -56,13 +56,13 @@
                     </div> -->
                 </div>
                     <h4 class="navibar">
-                        <a class="navlink nav-about nav-active" href="">About</a>
+                        <a class="navlink nav-about nav-active" href="#about">About</a>
 
-                        <a class="navlink nav-resume" href="">Resume</a>
+                        <a class="navlink nav-resume" href="#resume">Resume</a>
 
-                        <a class="navlink nav-portfolio" href="">Portfolio</a>
+                        <a class="navlink nav-portfolio" href="#portfolio">Portfolio</a>
 
-                        <a class="navlink nav-blog" href="">Blog</a>
+                        <a class="navlink nav-blog" href="http://b.kimboux.com/">Blog</a>
                     </h4>
 
                 <div class="social">
@@ -97,19 +97,20 @@
               <div class="yellow"></div>
             </div>
 
+<!-- Resume div begin  -->
 
-            <div role="main" class="main">
-                <article class="row">
-                    <div class="title span2">
-                    <h3>Objective</h3>
-                    </div>
-
-
-                <div class="span10">
-                    <section>
-                       Passionate about solving challenging problems by designing experiences that enrich lives. Driven to learn something new every day. Avid runner, cyclist and lover of Pugs.
-                    </section>
+        <div id="resume" role="main" class="js-section main">
+            <article class="row">
+                <div class="title span2">
+                <h3>Objective</h3>
                 </div>
+
+
+            <div class="span10">
+                <section>
+                   Passionate about solving challenging problems by designing experiences that enrich lives. Driven to learn something new every day. Avid runner, cyclist and lover of Pugs.
+                </section>
+            </div>
 
 <div class="row">
     <div class="col-md-9">
@@ -223,12 +224,12 @@
             <div class="skilltitle"> Heuristics
                 <div id="rectangle-7"></div>
             </div>
-            <div class="skilltitle"> User Research
+            <div class="skilltitle"> User Research and Personas
                 <div id="rectangle-5"></div>
             </div>
-            <div class="skilltitle"> User Personas
+            <!-- <div class="skilltitle"> User Personas
                 <div id="rectangle-6"></div>
-            </div>
+            </div> -->
             <div class="skilltitle"> Information Architecture
                 <div id="rectangle-8"></div>
             </div>
@@ -240,11 +241,48 @@
             </div>
         </div>
     </div>
+
+    <div class="col-md-3">
+        <div class="pro"><h3>Design Toolbox</h3>
+            <div class="axis">
+                <div class="lowlabel">Just Learning</div>
+                <div class="highlabel">Strongest Skill</div>
+            </div>
+            <div class="skilltitle"> Axure
+                <div id="rectangle-10"></div>
+            </div>
+            <div class="skilltitle"> Balsamiq
+                <div id="rectangle-11"></div>
+            </div>
+            <div class="skilltitle"> Sketch App
+                <div id="rectangle-12"> </div>
+            </div>
+            <div class="skilltitle"> Photoshop
+                <div id="rectangle-13"></div>
+            </div>
+            <div class="skilltitle"> HTML
+                <div id="rectangle-14"></div>
+            </div>
+            <div class="skilltitle"> CSS
+                <div id="rectangle-15"></div>
+            </div>
+            <!-- <div class="skilltitle"> Information Architecture
+                <div id="rectangle-8"></div>
+            </div>
+            <div class="skilltitle"> Visual Design
+                <div id="rectangle-9"></div>
+            </div>
+            <div class="skilltitle"> High Fidelity Mockups
+                <div id="rectangle-2"></div>
+            </div> -->
+        </div>
+    </div>
+</div>
 </div>
 
-<div class="portfolio">
+<!-- Opening portfolio div -->
+<div class="js-section" id="portfolio">
 
-<div>
 <h2>Projects</h2>
     <h3 class="port-title">RightScale</h3>
         <h4 class="port-title">Self Service - Lead UX Designer</h4>
@@ -313,15 +351,14 @@
         </li>
         <img src="">
 
-        </div>
-
+<!-- Closing Portfilio div -->
         </div>
 
     <!-- Opening 'About' div -->
-    <div class="about col-md-12">
+    <div id="about" class="js-section about col-md-12">
         <img class="aboutpic col-md-4" src="img/kim.jpg">
         <p class="blurb col-md-8">
-            Hi! I'm Kim, and I am a User Experience Designer. I love mediating the intersection of behavioral psychology, technology, and business needs to create delightful experiences. In my free time I enjoy observing the world around me by running, riding my bicycle around, and occassionally making memes.
+            Hi! I'm Kim, and I am a User Experience Designer. I love mediating the intersection of behavioral psychology, technology, and business needs to create delightful experiences. In my free time I enjoy observing the world around me by running, riding my bicycle, and occassionally making memes.
         </p>
     <!-- Closing 'About' tag -->
     </div>
@@ -342,23 +379,12 @@
       <hr>
 
       <footer>
-         Forked from Blopker. Source <a target="_blank" href="https://github.com/lopkerk/blopker.com">here</a>.
+        <i class="fa fa-heart-o fa-1x"></i> Hacked together with guidance from Bo, find him <a target="_blank" href="https://github.com/blopker">here</a>. <i class="fa fa-heart-o fa-1x"></i>
       </footer>
     </div> <!-- /container -->        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
-
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
     </body>
 </html>
