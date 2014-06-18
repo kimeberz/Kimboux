@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="24px" viewBox="0 0 28 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.2 (7799) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <polygon id="Star-1" stroke="#E94E77" fill="#E94E77" sketch:type="MSShapeGroup" points="14 18 8.12214748 21.0901699 9.24471742 14.545085 4.48943484 9.90983006 11.0610737 8.95491503 14 3 16.9389263 8.95491503 23.5105652 9.90983006 18.7552826 14.545085 19.8778525 21.0901699 "></polygon>
+        <path d="M4.5,1.5 L8.86243664,5.86243664" id="Line" stroke="#0ABFBC" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path d="M23.5,1.5 L19.1375634,5.86243664" id="Line-2" stroke="#0ABFBC" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path d="M22.5,15.5 L26.8624366,19.8624366" id="Line-4" stroke="#0ABFBC" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path d="M5.5,15.5 L1.13756336,19.8624366" id="Line-3" stroke="#0ABFBC" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

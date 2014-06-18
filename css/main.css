@@ -9,14 +9,19 @@ html header footer body{
 }
 
 .container {
+  padding: 0 40px;
+}
+
+.container {
   color: #535362;
-  font-family: futura, Helvetica neue, Arial, sans-serif;
+  font-family: Helvetica neue, Arial, sans-serif;
   border: 0;
-  font-size: 16px;
+  font-size: 100%;
   vertical-align: baseline;
   background: none;
   margin-top: 40px;
   margin-bottom: 40px;
+  min-width: 63em;
   /*max-width: 800px;*/
   /*padding: 40px 40px;
  /*-webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
@@ -140,6 +145,13 @@ footer{
   }
 }
 
+
+#training {
+  list-style: none;
+  list-style-type: none;
+  list-style-position: initial;
+  list-style-image: url('../img/star.svg');
+}
 
 /*Charts*/
 
@@ -337,6 +349,10 @@ footer{
 
 }
 
+.pro {
+  max-width: 20em;
+}
+
 .axis {
   border-color: #979797;
   border-top: 3px solid;
@@ -381,6 +397,12 @@ footer{
 
 }
 
+.nav-blog {
+  margin-right: 5%;
+  text-transform: uppercase;
+  color: #535362;
+}
+
 .navlink:hover {
   color: #E94E77;
 }
@@ -421,7 +443,7 @@ a:hover {
 
 .roles {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .port-pics {
@@ -434,6 +456,7 @@ a:hover {
 
 .port-title {
   text-align: center;
+  padding-top: 15px;
 }
 
 /*About Page*/
@@ -449,6 +472,20 @@ a:hover {
   padding-bottom: 40px;
   display: block;
   float: left;
-  border-radius: 20%;
+  border-bottom-left-radius: 115px;
+  border-bottom-right-radius: 115px;
+  border-top-left-radius: 82px;
+  border-top-right-radius: 82px;
+  }
+
+  .contact {
+    display: inline;
+    padding-left: 1%;
+
+  }
+
+  .traitsicon {
+    margin-bottom: 15px;
+  }
 
 }
