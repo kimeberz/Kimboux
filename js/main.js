@@ -5,7 +5,7 @@
 	    return;
 	}
 
-	var defaultSection = '#resume';
+	var defaultSection = '#about';
 
 	$('.navlink').click(function(e) {
 		e.preventDefault();
