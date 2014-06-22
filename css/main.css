@@ -430,7 +430,53 @@ a:hover {
   max-width: 100%;
 }
 
+.project {
+  padding-bottom: 20px;
+}
+
 .roles li{
+  /*list-style: none;*/
+  padding-left: -40px;
+}
+
+.roles {
+
+}
+
+.port-pics {
+  max-width: 900px;
+  padding-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+}
+
+.port-heading {
+  font-weight: 700;
+}
+
+.port-title {
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.subtitle {
+  font-weight: 500
+}
+
+.p strong {
+
+}
+
+.port-blurb {
+  /*font-family: Avenir;*/
+  font-weight: 300;
+  /*line-height: 1em;*/
+}
+
+/*.roles li{
   display: inline;
   list-style: none;
   padding-right: 5px;
@@ -454,7 +500,7 @@ a:hover {
 .port-title {
   text-align: center;
   padding-top: 15px;
-}
+}*/
 
 /*About Page*/
 
