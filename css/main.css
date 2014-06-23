@@ -6,6 +6,7 @@
 @import "compass_twitter_bootstrap";
 
 html header footer body{
+  line-height: 1.6;
 }
 
 .container {
@@ -14,9 +15,11 @@ html header footer body{
 
 .container {
   color: #535362;
-  font-family: Helvetica neue, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  /*font-family: Helvetica neue, Arial, sans-serif;*/
   border: 0;
-  font-size: 100%;
+  font-size: 110%;
   vertical-align: baseline;
   background: none;
   margin-top: 40px;
@@ -25,9 +28,9 @@ html header footer body{
 
 }
 
-p {
+/*p {
   line-height: 150%;
-}
+}*/
 
 header{
   padding-bottom: 5px;
@@ -457,10 +460,11 @@ a:hover {
 }
 
 .port-title {
+  text-align: center;
   padding-top: 15px;
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 1.7em;
 }
+
 
 .subtitle {
   font-weight: 500
@@ -473,14 +477,16 @@ a:hover {
 .port-blurb {
   /*font-family: Avenir;*/
   font-weight: 300;
-  /*line-height: 1em;*/
+  font-size: 1.35em;
+  line-height: 1.6em;
+  max-width: 50em;
 }
 
-/*.roles li{
+.roles li{
   display: inline;
   list-style: none;
   padding-right: 5px;
-  font-size: 130%;
+  font-size: 1.25em;
 
 }
 
@@ -497,10 +503,6 @@ a:hover {
   margin-right: auto;
 }
 
-.port-title {
-  text-align: center;
-  padding-top: 15px;
-}*/
 
 /*About Page*/
 
