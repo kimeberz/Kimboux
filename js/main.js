@@ -1,18 +1,20 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('.page-scroll a').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
+
+$('body').on('click', '.page-scroll a', function() {
+    var hash = $(this).attr('href');
+
+    if(history.pushState) {
+        history.pushState(null, null, hash);
+    }
+    else {
+        location.hash = hash;
+        return;
+    }
+
+    $('html, body').stop().animate({
+        scrollTop: $(hash).offset().top
+    }, 1500, 'easeOutQuint');
+    event.preventDefault();
 });
 
 // Floating label headings for the contact form
