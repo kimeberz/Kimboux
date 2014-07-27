@@ -31,4 +31,7 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
+
+// Set current year in the footer
+$('.js-year').html(new Date().getFullYear());
