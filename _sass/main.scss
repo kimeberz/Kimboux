@@ -2,3 +2,7 @@
 @import "variables";
 @import "mixins";
 @import "theme";
+
+a:hover {
+    color: $brand-secondary !important;
+}
