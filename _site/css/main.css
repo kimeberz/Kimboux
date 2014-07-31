@@ -6550,3 +6550,12 @@ footer {
 
 a:hover {
   color: #E94E77 !important; }
+
+.modal-content p, .modal-content ul, .modal-content li {
+  text-align: left;
+  padding-bottom: 20px;
+  line-height: 1.3em; }
+.modal-content ul, .modal-content li {
+  font-size: 20px; }
+.modal-content ul {
+  font-weight: bold; }
