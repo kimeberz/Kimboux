@@ -6380,7 +6380,8 @@ section.success {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s; }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
-        opacity: 1; }
+        opacity: 1;
+        background-color: rgba(68, 68, 68, 0.6); }
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
         position: absolute;
         width: 100%;
@@ -6516,6 +6517,12 @@ footer {
     margin-bottom: 30px; }
   .portfolio-modal .modal-content .item-details {
     margin: 30px 0; }
+.portfolio-modal .modal-caption {
+  position: absolute;
+  left: -10em;
+  width: 8.75em;
+  text-align: right;
+  color: #929fab; }
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;

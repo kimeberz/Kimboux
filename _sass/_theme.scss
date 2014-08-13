@@ -198,6 +198,7 @@ section.success {
                 -moz-transition: all ease 0.5s;
                 &:hover {
                     opacity: 1;
+                    background-color: rgba(68,68,68,0.6);
                 }
                 .caption-content {
                     position: absolute;
@@ -381,6 +382,15 @@ footer {
             margin: 30px 0;
         }
     }
+    .modal-caption {
+        position: absolute;
+        // top: 0;
+        left: -10em;
+        width: 8.75em;
+        text-align: right;
+        color: $caption;
+    }
+
     .close-modal {
         position: absolute;
         width:75px;
