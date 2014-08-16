@@ -6561,8 +6561,14 @@ a:hover {
 .modal-content p, .modal-content ul, .modal-content li {
   text-align: left;
   padding-bottom: 20px;
-  line-height: 1.3em; }
+  line-height: 1.5em; }
 .modal-content ul, .modal-content li {
   font-size: 20px; }
 .modal-content ul {
+  font-weight: bold; }
+
+.container ul, .container li {
+  font-size: 20px;
+  line-height: 1.5em; }
+.container ul {
   font-weight: bold; }
