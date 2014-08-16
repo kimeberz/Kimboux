@@ -2692,7 +2692,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 10px 15px;
+  padding: 8px 14px;
   font-size: 15px;
   line-height: 1.42857143;
   border-radius: 4px;
@@ -6558,12 +6558,16 @@ footer {
 a:hover {
   color: #E94E77 !important; }
 
-.modal-content p, .modal-content ul, .modal-content li {
+.item-details {
+  text-align: center !important; }
+
+.modal-content p, .modal-content ul {
   text-align: left;
   padding-bottom: 20px;
   line-height: 1.5em; }
 .modal-content ul, .modal-content li {
-  font-size: 20px; }
+  font-size: 20px;
+  padding-bottom: 20px; }
 .modal-content ul {
   font-weight: bold; }
 
