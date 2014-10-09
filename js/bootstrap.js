@@ -1067,6 +1067,27 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   $.fn.modal.Constructor = Modal
 
 
+//***** Weird stuff
+
+//   $('div.modal').on('show.bs.modal', function() {
+//   var modal = this;
+//   var hash = modal.id;
+//   window.location.hash = hash;
+//   window.onhashchange = function() {
+//     if (!location.hash){
+//       $(modal).modal('hide');
+//     }
+//   }
+// });
+
+// $('div.modal').on('hide.bs.modal', function() {
+//   var hash = this.id;
+//   history.pushState('', document.title, window.location.pathname);
+// });
+
+// ******end weird stuff
+
+
   // MODAL NO CONFLICT
   // =================
 
