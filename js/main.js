@@ -35,3 +35,8 @@ $('body').scrollspy({
 
 // Set current year in the footer
 $('.js-year').html(new Date().getFullYear());
+
+// // js to create dynamic URL
+
+// var a = document.getElementById('project.id'); //or grab it by tagname etc
+// a.href = "project.id"
